@@ -1,10 +1,11 @@
-num1 = prompt("Ingrese primer numero a ordenar");
-num2 = prompt("Ingrese segundo numero a ordenar");
-num3 = prompt("Ingrese tercer numero a ordenar");
-num4 = prompt("Ingrese cuarto numero a ordenar");
-num5 = prompt("Ingrese quinto numero a ordenar");
+let numeros = [
+    Number(num1= prompt("Ingrese primer numero a ordenar")),
+    Number(num2 = prompt("Ingrese segundo numero a ordenar")),
+    Number(num3 = prompt("Ingrese tercer numero a ordenar")),
+    Number(num4 = prompt("Ingrese cuarto numero a ordenar")),
+    Number(num5 = prompt("Ingrese quiinto numero a ordenar")),]
 
-let numeros = [Number(num1),Number(num2),Number(num3),Number(num4),Number(num5),]
+if (numeros === NaN) {alert("Debe ingresar solo numeros")};
 
 numeros.sort( function( a , b){
     if(a > b) return 1;
