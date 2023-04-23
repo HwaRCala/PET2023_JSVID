@@ -5,10 +5,13 @@ let numeros = [
     num4 = Number(prompt("Ingrese cuarto numero a ordenar")),
     num5 = Number(prompt("Ingrese quiinto numero a ordenar")),]
 
+if (isNaN(numeros)=false) 
+    {document.location.reload()}
+
 numeros.sort( function( a , b){
     if(a > b) return 1;
     if(a < b) return -1;
     return 0;
 });
 
-document.write(numeros);
+document.write(num1+num2);
