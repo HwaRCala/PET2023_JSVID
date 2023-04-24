@@ -1,12 +1,15 @@
-let numeros = [
-    num1 = Number(prompt("Ingrese primer numero a ordenar")),
-    num2 = Number(prompt("Ingrese segundo numero a ordenar")),
-    num3 = Number(prompt("Ingrese tercer numero a ordenar")),
-    num4 = Number(prompt("Ingrese cuarto numero a ordenar")),
-    num5 = Number(prompt("Ingrese quiinto numero a ordenar")),]
+// Pedir al usuario que introduzca los 5 números
+let numeros = [];
+for(let i = 0; i < 5; i++) {
+  let numero = prompt(`Introduce el número ${i+1}:`);
+  // Validar que el usuario haya introducido un número válido
+  while(isNaN(numero) || numero === "") {
+    numero = prompt(`El valor introducido no es un número válido. Introduce el número ${i+1}:`);
+  }
+  numeros.push(Number(numero));
+}
 
-if (isNaN(numeros)=false) 
-    {document.location.reload()}
+// Ordenar los números de menor a mayor
 
 numeros.sort( function( a , b){
     if(a > b) return 1;
@@ -14,4 +17,4 @@ numeros.sort( function( a , b){
     return 0;
 });
 
-document.write(num1+num2);
+document.write(numeros);
