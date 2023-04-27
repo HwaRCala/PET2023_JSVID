@@ -1,4 +1,4 @@
-// Pedir al usuario que introduzca los 5 números
+// Pedir que se introduzcan los 5 números
 let numeros = [];
 for(let i = 0; i < 5; i++) {
   let numero = prompt(`Introduce el número ${i+1}:`);
@@ -17,4 +17,4 @@ numeros.sort( function( a , b){
     return 0;
 });
 
-document.write(numeros); 
+alert(`Los números ordenados de menor a mayor son: ${numeros}`);
