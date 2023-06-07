@@ -229,11 +229,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ITLM\\Netcore\\Proyecto1\\Proyecto1\\Proyecto1.csproj",
+      "projectUniqueName": "C:\\Users\\leovi\\OneDrive\\Documentos\\GitHub\\PET2023_JSVID\\Netcore\\Proyecto1\\Proyecto1.csproj",
       "projectName": "Proyecto1",
-      "projectPath": "C:\\ITLM\\Netcore\\Proyecto1\\Proyecto1\\Proyecto1.csproj",
+      "projectPath": "C:\\Users\\leovi\\OneDrive\\Documentos\\GitHub\\PET2023_JSVID\\Netcore\\Proyecto1\\Proyecto1.csproj",
       "packagesPath": "C:\\Users\\leovi\\.nuget\\packages\\",
-      "outputPath": "C:\\ITLM\\Netcore\\Proyecto1\\Proyecto1\\obj\\",
+      "outputPath": "C:\\Users\\leovi\\OneDrive\\Documentos\\GitHub\\PET2023_JSVID\\Netcore\\Proyecto1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\leovi\\AppData\\Roaming\\NuGet\\NuGet.Config",
